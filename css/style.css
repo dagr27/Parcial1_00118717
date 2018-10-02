@@ -163,6 +163,9 @@ header .menu .list li a{
     border-style: none;
     
 }
+.anchoCon{
+    height: 90%;
+}
 .container2 .block3 .b-inside h2{
     color:#612e1d;
     padding: 3%;
@@ -274,6 +277,7 @@ header .menu .list li a{
     margin: 0.5%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
+    grid-gap: 10px;
 }
 .info{
     width: 100%;
@@ -312,8 +316,9 @@ footer{
     background-color: #000;
     color: #fff;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
     grid-auto-rows: minmax(250px, auto);
+    text-align: center;
 }
 footer h4{
     padding: 10px;
@@ -381,6 +386,9 @@ footer a{
         background-color: black;
         opacity: .5;
         z-index: 0;
+    }
+    .anchoCon{
+        height: 90%;
     }
     .inside{
         width: 100%;
